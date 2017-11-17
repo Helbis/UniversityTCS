@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 #ifndef MAX_VAL
 #define MAX_VAL 1000
@@ -66,7 +65,6 @@ int main(void){
 		}
 		default: {
 			printf("Invalid input!\n");
-			system("ls -la");
 		}
 	}
 
